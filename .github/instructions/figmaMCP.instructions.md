@@ -1,0 +1,13 @@
+---
+applyTo: '**'
+---
+- The Figma Dev Mode MCP Server provides an assets endpoint which can serve image and SVG assets
+- IMPORTANT: If the Figma Dev Mode MCP Server returns a localhost source for an image or an SVG, use that image or SVG source directly
+- IMPORTANT: DO NOT import/add new icon packages, all the assets should be in the Figma payload
+- IMPORTANT: do NOT use or create placeholders if a localhost source is provided
+- Use components from `/src/components` wherever available.
+- Match Figma designs precisely.
+- Replace hardcoded values with Figma design tokens.
+- Adhere to WCAG accessibility standards.
+- Document components thoroughly.
+- Organize UI components in `/src/components`, and use inline styles only if absolutely necessary.
