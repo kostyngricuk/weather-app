@@ -1,6 +1,5 @@
 import { X, Search } from 'lucide-react';
 import WeatherIcon from './WeatherIcon';
-import ThemeToggle from './ThemeToggle';
 
 interface MobileRightPanelProps {
   isOpen: boolean;

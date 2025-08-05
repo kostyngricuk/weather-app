@@ -42,7 +42,7 @@ const HourlyForecastSection = () => {
 
   return (
     <div className="flex flex-col gap-4">
-      <h2 className="text-theme-text-primary text-xl font-semibold">Today's Forecast</h2>
+      <h2 className="text-theme-text-primary text-xl font-semibold">Today&apos;s Forecast</h2>
       <div className="h-[200px]">
         <Line data={data} options={options} />
       </div>
