@@ -8,6 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        theme: {
+          'primary': 'var(--color-primary)',
+          'secondary': 'var(--color-secondary)',
+          'text-primary': 'var(--color-text-primary)',
+          'text': 'var(--color-text)',
+          'accent': 'var(--color-accent)',
+        },
         'mustard': {
           50: '#fffbeb',
           100: '#fef3c7',
