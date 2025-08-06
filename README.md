@@ -2,6 +2,8 @@
 
 A beautiful, responsive weather web application built with React, TypeScript, and Tailwind CSS. Features a warm mustard yellow design with modern UI components and interactive weather forecasting.
 
+[Demo](https://kostyngricuk.github.io/weather-app/)
+
 ## 🚀 Features
 
 - **Responsive Design**: Adapts seamlessly to desktop, tablet, and mobile devices
